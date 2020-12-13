@@ -1,0 +1,21 @@
+/*@keyframes turning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/ /*перенес в turning.css*/
+
+.kaufman__triangle {
+    position: absolute;
+    width: 877px;
+    height: 877px;
+    background-image: url(../../../images/kaufman-triangle.svg);
+    right: -210px;
+    top: 0;
+    background-size: contain;
+    /*cover масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока.*/
+    z-index: -1;
+      /*Если немного сжать окно браузера, то треугольник уже не перекрывает заголовок. Сделал таки через средства разработчика! Убил больше час времени*/
+}

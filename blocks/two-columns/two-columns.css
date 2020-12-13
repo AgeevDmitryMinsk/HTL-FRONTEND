@@ -1,0 +1,7 @@
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /*Свойство width: 80%; нужно перенести с элемента description на two-columns, 
+    т.к. ширина 80% должна быть у блока two-columns, а секцию по ширине ограничивать 
+    не нужно. Александр Семёнов - ревьюер 21/11*/
+}

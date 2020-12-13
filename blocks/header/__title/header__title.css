@@ -1,0 +1,15 @@
+.header__title {
+    margin: 0 0 0 64px;
+    /*margin-left: 64px;*/
+    padding: 0;
+    box-sizing: border-box;
+    /*добавил это свойства, тк в этом случае width и height включают в себя значения полей и границ, но не отступов (margin).*/
+    width: 730px;
+    color: #000000;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+    z-index: 3;
+    /*добавил чтобы картинка с мальчиком не перекрывала заголовок*/
+  }

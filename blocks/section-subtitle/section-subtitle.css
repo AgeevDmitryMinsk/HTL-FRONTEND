@@ -1,0 +1,10 @@
+.section-subtitle {
+    width: 60%;
+    margin: 0 auto 0; /*Отступ между подзаголовком секции и первым рядом карточек больше,
+    чем нужно http://joxi.ru/krDa1gGi460PEm - исправил после 2го ревью, Александр Семёнов ревьюер*/
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 34px;
+    text-align: center;
+    /*margin-bottom: 60px; - убрал после 1го ревью, т.к. у каждой table__cell уже задано margin-top: 60px;*/
+  }

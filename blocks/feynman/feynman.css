@@ -1,0 +1,7 @@
+.feynman {
+    position: relative;
+    height: 790px;
+    padding-top: 80px; /*в спринте-1 это расстояние 100px*/
+    background: #f2f2f2;
+    margin-bottom: 100px;
+  } 

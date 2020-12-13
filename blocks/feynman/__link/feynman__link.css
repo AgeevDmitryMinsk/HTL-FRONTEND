@@ -1,0 +1,21 @@
+.feynman__link {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 51px;
+    color: #2f80ed;
+    text-decoration: none;
+    position: absolute;
+    right: 48px;
+    top: 50%;
+    z-index: 999;
+    opacity: .7;
+    transition: opacity 1s ease;
+    /*transition: color 10s ease-in-out; убрал изменение цвета и размера шрифта, хотел испробывать переход's:
+    transition: font-size 1s ease-out;*/
+  }
+  
+  .feynman__link:hover {
+    opacity: .5;
+    /*color: blue;
+    font-size: 50px;*/
+  }

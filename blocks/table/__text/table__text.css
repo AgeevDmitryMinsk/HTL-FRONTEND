@@ -1,0 +1,12 @@
+.table__text {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 0; /*У этого элемента нужно обнулить лишние 
+    марджины http://joxi.ru/Dr8zWajiMYVo02  - Александр Семёнов  ревьюер 21/11*/
+  }
+
+  .table__text:nth-child(odd) {
+    margin-top: 20px;
+  }

@@ -1,0 +1,14 @@
+.footer__column-link {
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 1;
+    transition: opacity 1s ease;
+    color: white;
+    /*цвет шрифта белый color: #fff;*/
+  }
+  .footer__column-link:hover {
+    opacity: .5;
+  } /*тк менять прозрачность нужно  каждой отдельной ссылке, а не всему списку 
+  ссылок перенес из .footer__column-links:hover - 21/11 Александр Семёнов ревьюер*/

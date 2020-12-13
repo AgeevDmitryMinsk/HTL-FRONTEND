@@ -1,0 +1,11 @@
+.oakley {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    padding-top: 160px;
+
+    background: #f2f2f2;
+  }
+/*2е ревью. Блок two-columns должен быть расположен по центру секции oakley http://joxi.ru/vAWERWvHOD1kWm 
+В секции description это сделано верно. Здесь нужно сделать по аналогии - Александр Семёнов, ревьюер*/

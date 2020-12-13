@@ -1,0 +1,11 @@
+.footer__column-heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    /*У этого элемента нужно обнулить лишние марджины 
+    http://joxi.ru/E2p7W3XHGJd7lm Александр Семёнов ревьюер 21/11*/
+}

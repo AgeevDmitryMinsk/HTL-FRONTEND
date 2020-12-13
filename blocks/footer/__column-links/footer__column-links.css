@@ -1,0 +1,15 @@
+.footer__column-links {
+    list-style: none;
+    padding: 0;
+    /*list-style: none - свойство, которое уберёт точки у списка*/
+    text-decoration: none;
+    /*Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.*/
+    /*color: white;    
+    opacity: 1;
+    transition: opacity 1s ease; */ /*перенес в footer__column-link, тк менять прозрачность нужно 
+    каждой отдельной ссылке, а не всему списку ссылок*/
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  /*.footer__column-links:hover {opacity: .5;}
+      перенес в footer__column-link*/

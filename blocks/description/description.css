@@ -1,0 +1,9 @@
+.description {
+    margin: 0 auto;
+    padding-top: 100px;    
+    /*width: 80%; /*Свойство width: 80%; нужно перенести с этого элемента на two-columns, 
+    т.к. ширина 80% должна быть у блока two-columns, а секцию по ширине ограничивать 
+    не нужно. Александр Семёнов - ревьюер 21/11*/
+    display: flex;
+    justify-content: center;
+  }

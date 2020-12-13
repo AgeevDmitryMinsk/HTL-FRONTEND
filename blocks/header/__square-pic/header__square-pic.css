@@ -1,0 +1,20 @@
+/*@keyframes turning {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }*/ /*перенес в turning.css*/
+
+.header__square-pic {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    height: 568px;
+    width: 568px;
+    background: #2f80ed;
+    /*z-index: 0;*/
+    /*border: 1px solid red;*/
+    
+}

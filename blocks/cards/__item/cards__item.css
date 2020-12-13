@@ -1,0 +1,13 @@
+.cards__item {
+    margin-top: 60px;
+    width: 240px;
+    margin-right: 100px;
+}
+
+/*cards__item_gap-right" нужно удалить - задать всем элементам cards__item 
+  свойство margin-right, а у каждого третьего элемента этот марджин обнулить. 
+  Или сверстать блок cards с помощью гридов.- 21/11 - Александр Семёнов, ревьюер*/
+  
+.cards__item:nth-child(2n+3) {  
+    margin-right: 0;
+  }

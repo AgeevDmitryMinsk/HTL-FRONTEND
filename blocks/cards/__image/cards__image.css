@@ -1,0 +1,9 @@
+.cards__image {
+    height: 160px;
+    width: 160px;
+    /* margin-top: 60px; */ /*поменял на 0, т.к. отступ между подзаголовком секции и первым рядом
+     карточек больше, чем нужно http://joxi.ru/p27p6ZvHNjQovA, Александр Семёнов - 21/11 */
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+  }
